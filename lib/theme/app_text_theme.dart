@@ -37,8 +37,4 @@ extension GetTextStyle on BuildContext {
   TextStyle effraTextStyle() {
     return Theme.of(this).textTheme.bodyMedium ?? const TextStyle();
   }
-
-  TextStyle openSansTextStyle() {
-    return Theme.of(this).textTheme.bodyLarge ?? const TextStyle();
-  }
 }
